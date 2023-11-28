@@ -1,7 +1,7 @@
 import { IdcardOutlined } from '@ant-design/icons'
 import React from 'react'
 
-function Job() {
+function SearchJob() {
   const Jobs=[
     {id:1,name:"General Labor (Day shift)", type:true},
     {id:2,name:"Warehouse", type:false},
@@ -50,4 +50,4 @@ function Job() {
   )
 }
 
-export default Job
+export default SearchJob

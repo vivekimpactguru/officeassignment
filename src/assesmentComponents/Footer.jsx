@@ -10,8 +10,8 @@ import {
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const CustomSection = styled("section")(() => ({
   padding: "50px",
@@ -40,7 +40,7 @@ function Footer() {
                     marginRight: "10px",
                   }}
                 >
-                  <FacebookIcon sx={{ color: "#fff" }} />
+                  {/* <FacebookIcon sx={{ color: "#fff" }} /> */}
                 </Box>
                 <Box
                   sx={{
@@ -49,7 +49,7 @@ function Footer() {
                     borderRadius: "10px",
                   }}
                 >
-                  <YouTubeIcon sx={{ color: "#fff" }} />
+                  {/* <YouTubeIcon sx={{ color: "#fff" }} /> */}
                 </Box>
               </Stack>
             </Stack>

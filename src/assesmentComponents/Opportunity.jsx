@@ -11,8 +11,8 @@ import {
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+// import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+// import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 
 const CustomSection = styled("section")(() => ({
   padding: "40px 0px",
@@ -54,7 +54,7 @@ const CustomLeftArrow = styled("div")(() => ({
 function NextArrow({ onClick }) {
   return (
     <CustomRightArrow onClick={onClick}>
-      <ArrowForwardIosIcon />
+      {/* <ArrowForwardIosIcon /> */}
     </CustomRightArrow>
   );
 }
@@ -62,12 +62,12 @@ function NextArrow({ onClick }) {
 function PrevArrow({ onClick }) {
   return (
     <CustomLeftArrow onClick={onClick}>
-      <ArrowBackIosNewIcon />
+      {/* <ArrowBackIosNewIcon /> */}
     </CustomLeftArrow>
   );
 }
 
-function Career() {
+function Opportunity() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
@@ -161,4 +161,4 @@ function Career() {
   );
 }
 
-export default Career;
+export default Opportunity;

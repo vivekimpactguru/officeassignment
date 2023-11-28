@@ -1,6 +1,6 @@
 import React from 'react'
 import image2 from '../assets/image2.webp'
-function Community() {
+function CommunityPost() {
 
   return (
     <div>
@@ -12,7 +12,7 @@ function Community() {
             <div className="col-span-2">
             <div className="w-max-[400px] flex flex-col h-full justify-between">
           <div className="">
-          <h2 className='text-4xl font-bold'>Come Join Our  Community</h2>
+          <h2 className='text-4xl font-bold'>Come Join Our  CommunityPost</h2>
                 <p className="mt-10 md:text-lg">At LG Resources, we believe jobs can change lives. We have helped thousands of job seekers across the U.S. find temporary and long-term employment in jobs they love. Whether you are an industry veteran or seeking your first job, LG is here to help you find work that matches your skills.</p>
           </div>
           <div className="">
@@ -26,4 +26,4 @@ function Community() {
   )
 }
 
-export default Community
+export default CommunityPost

@@ -3,7 +3,7 @@ import { Card } from 'antd';
 import { Col, Row } from 'antd';
 
 
-const Blog = () => {
+const BlogSection = () => {
   return (
     <div className='Blog'>
       <div className='Blog_main bg-slate-200'>
@@ -62,4 +62,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default BlogSection

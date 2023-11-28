@@ -24,11 +24,11 @@ const items = [
 
 ];
 
-function Head() {
+function CommonHeader() {
   const [Menu,setMenu]=useState(false)
   return (
     <div className='cursor-pointer'>
-        <div className="header-top bg-[#1f3547] p-3   ">
+        <div className="CommonHeaderer-top bg-[#1f3547] p-3   ">
             
        <div className="w-[95%] m-auto md:grid md:grid-cols-6 ">
        <div className="bg-[#4C5D6C] rounded-md p-1 px-3 col-start-1 col-end-3 flex  ">
@@ -87,13 +87,13 @@ function Head() {
 
             <li className='p-4 border-slate-950 border-y-2 text-sm'>Work for LG</li>
             <Collapse className=' border-t-2 border-slate-950'  expandIconPosition='end' ghost  >
-            <Collapse.Panel  header="Jobs" key="1">
+            <Collapse.Panel  CommonHeaderer="Jobs" key="1">
               <p className='p-4'>Temp Jobs</p>
               <p className='p-4'>Permanent Jobs</p>
             </Collapse.Panel>
               </Collapse>
             <Collapse className='border-slate-950 border-y-2'  expandIconPosition='end' ghost  >
-            <Collapse.Panel className='border-slate-950 border-y-2' header="Locations" >
+            <Collapse.Panel className='border-slate-950 border-y-2' CommonHeaderer="Locations" >
               <p className='p-4 '>Temp Jobs</p>
               <p className='p-4'>Permanent Jobs</p>
             </Collapse.Panel>
@@ -105,4 +105,4 @@ function Head() {
   )
 }
 
-export default Head
+export default CommonHeader
